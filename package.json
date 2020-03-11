@@ -1,0 +1,19 @@
+{
+  "name": "webpackguide",
+  "version": "1.0.0",
+  "description": "Learning Webpack version 4.X",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukumarvaddi/webpackguide.git"
+  },
+  "author": "Sukumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sukumarvaddi/webpackguide/issues"
+  },
+  "homepage": "https://github.com/sukumarvaddi/webpackguide#readme"
+}
