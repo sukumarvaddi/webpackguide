@@ -22,6 +22,8 @@ module.exports = {
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist'),
+
+        // Used with webpack-dev-middle ware in conjuction with express server. Check server.js to see how it is used.
         publicPath: '/'
     },
 
