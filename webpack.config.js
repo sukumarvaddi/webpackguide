@@ -1,24 +1,20 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
     mode: 'development',
     entry: {
-        app: './src/index.js',
-        another: './src/another-module.js'
+        index: './src/index.js',
+        another: './src/another-module.js',
     },
-
     output: {
         filename: '[name].bundle.js',
+        chunkFilename: '[name].bundle.js',
+        publicPath: 'dist/',
         path: path.resolve(__dirname, 'dist'),
-
     },
-
     optimization: {
         splitChunks: {
-            chunks: 'all'
-        }
-    }
-
+            chunks: 'all',
+        },
+    },
 };
