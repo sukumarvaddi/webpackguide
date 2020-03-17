@@ -1,6 +1,6 @@
 {
   "name": "webpackguide",
-  "main": "dist/webpack-numbers.js",
+  "sideEffects": false,
   "version": "1.0.0",
   "description": "Learning Webpack version 4.X",
   "private": true,
